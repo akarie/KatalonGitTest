@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Skenario Normal untuk Testing Checklist</description>
+   <name>Normal Flow for Testing Checklist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc2c26b0-cbe6-4c62-ab8d-65c3a01b3021</testCaseGuid>
+   <variable>
+      <defaultValue>'ADE'</defaultValue>
+      <description></description>
+      <id>01e06892-bace-4c06-8157-766c37ae62bc</id>
+      <masked>false</masked>
+      <name>ParamProd</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000000'</defaultValue>
+      <description></description>
+      <id>707400f7-dd06-4a29-bdde-486d4c6f948a</id>
+      <masked>false</masked>
+      <name>ParamAmount</name>
+   </variable>
+</TestCaseEntity>

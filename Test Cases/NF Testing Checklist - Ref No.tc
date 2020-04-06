@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Skenario Normal untuk Testing Checklist</description>
+   <name>NF Testing Checklist - Ref No</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6e39805-dab3-41e2-89be-2541ab6d8efe</testCaseGuid>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>145d985d-126a-4877-9e97-11f6b636b205</id>
+      <masked>false</masked>
+      <name>ParamRefNo</name>
+   </variable>
+</TestCaseEntity>

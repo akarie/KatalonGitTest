@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing Checklist - Add New Transaction" time="95.995" tests="1" failures="0" errors="0">
+   <testsuite name="Testing Checklist - Add New Transaction" tests="1" failures="0" errors="0" time="95.995" timestamp="2020-03-12 14:08:45" hostname="arie.kurniawan - DESKTOP-30DFA4O.developement.praisindo.com" id="Test Suites/Testing Checklist - Add New Transaction">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\arie.kurniawan\\Katalon Studio\\Testing Checklist\\Reports\\20200312_140826\\Testing Checklist - Add New Transaction\\20200312_140826"/>
+         <property name="logFiles" value="C:\\Users\\arie.kurniawan\\Katalon Studio\\Testing Checklist\\Reports\\20200312_140826\\Testing Checklist - Add New Transaction\\20200312_140826\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="arie.kurniawan - DESKTOP-30DFA4O.developement.praisindo.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.132"/>
+         <property name="hostAddress" value="192.168.178.1"/>
+         <property name="sessionId" value="cc3f463030c7e0c98171d2da874c58c7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Testing Checklist untuk Add New Transaction" time="93.997" classname="Test Cases/Testing Checklist untuk Add New Transaction" status="PASSED">
+         <system-out><![CDATA[2020-03-12 14:08:46 - [TEST_CASE][PASSED] - Test Cases/Testing Checklist untuk Add New Transaction: Test Cases/Testing Checklist untuk Add New Transaction
+
+2020-03-12 14:08:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-12 14:08:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-12 14:08:49 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2020-03-12 14:09:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-12 14:09:13 - [TEST_STEP][PASSED] - navigateToUrl("http://192.168.26.36/dev_cloud/ui/OrderManagement/AddNewTransaction"): Navigate to 'http://192.168.26.36/dev_cloud/ui/OrderManagement/AddNewTransaction' successfully
+
+2020-03-12 14:09:24 - [MESSAGE][PASSED] - Navigate to 'http://192.168.26.36/dev_cloud/ui/OrderManagement/AddNewTransaction' successfully
+
+2020-03-12 14:09:24 - [TEST_STEP][PASSED] - click(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer")): Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:09:26 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer"), findTestData("DataTesting_TestingChecklist/Text").getValue(5, 1)): Text 'ASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSSFFSDFD ' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:09:37 - [MESSAGE][PASSED] - Text 'ASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSSFFSDFD ' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:09:37 - [TEST_STEP][PASSED] - click(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer")): Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:09:38 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer"), findTestData("DataTesting_TestingChecklist/Text").getValue(5, 2)): Text '~!@#$%^&*_ -+=’|\(){}[]:;”’<>,.?/; ? ' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:09:42 - [MESSAGE][PASSED] - Text '~!@#$%^&*_ -+=’|\(){}[]:;”’<>,.?/; ? ' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:09:42 - [TEST_STEP][PASSED] - click(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer")): Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:09:43 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer"), findTestData("DataTesting_TestingChecklist/Text").getValue(5, 3)): Text 'ABCDEFGHIJKLMNOPQRSTUVWXYZ ' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:09:46 - [MESSAGE][PASSED] - Text 'ABCDEFGHIJKLMNOPQRSTUVWXYZ ' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:09:46 - [TEST_STEP][PASSED] - click(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer")): Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:09:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-03-12 14:09:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-03-12 14:09:53 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer"), findTestData("DataTesting_TestingChecklist/Text").getValue(5, 4)): Text 'abcdefhijklmnopqrstuvwxyz ' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:09:56 - [MESSAGE][PASSED] - Text 'abcdefhijklmnopqrstuvwxyz ' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:09:56 - [TEST_STEP][PASSED] - click(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer")): Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:09:58 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer"), findTestData("DataTesting_TestingChecklist/Text").getValue(5, 5)): Text '1234567890' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:10:01 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:10:01 - [TEST_STEP][PASSED] - click(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer")): Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:10:02 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer"), findTestData("DataTesting_TestingChecklist/Security").getValue(4, 1)): Text 'ABC<div style=\"x\\x3Aexpression(javascript:alert(1)\">DEF' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:10:05 - [MESSAGE][PASSED] - Text 'ABC<div style=\"x\\x3Aexpression(javascript:alert(1)\">DEF' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:10:05 - [TEST_STEP][PASSED] - click(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer")): Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:10:06 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:10:06 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer"), findTestData("DataTesting_TestingChecklist/Security").getValue(4, 2)): Text '<script\\x20type=\"text/javascript\">javascript:alert(1);</script>' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:10:09 - [MESSAGE][PASSED] - Text '<script\\x20type=\"text/javascript\">javascript:alert(1);</script>' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:10:09 - [TEST_STEP][PASSED] - click(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer")): Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:10:11 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:10:11 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer"), findTestData("DataTesting_TestingChecklist/Security").getValue(4, 3)): Text '<a href=\"\\x1Ejavascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:10:14 - [MESSAGE][PASSED] - Text '<a href=\"\\x1Ejavascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:10:14 - [TEST_STEP][PASSED] - click(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer")): Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:10:15 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer"), findTestData("DataTesting_TestingChecklist/Security").getValue(4, 4)): Text '<img src=x\\x13onerror=\"javascript:alert(1)\">' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:10:18 - [MESSAGE][PASSED] - Text '<img src=x\\x13onerror=\"javascript:alert(1)\">' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-03-12 14:10:18 - [TEST_STEP][PASSED] - click(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer")): Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on
+
+2020-03-12 14:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-12 14:08:45 - [TEST_SUITE][PASSED] - Testing Checklist - Add New Transaction: Test Cases/Testing Checklist untuk Add New Transaction]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Skenario Normal untuk Testing Checklist</description>
+   <name>NF Testing Checklist - Input Amount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>78e8128e-7527-4fa7-9da4-1e1d9254747e</testCaseGuid>
+   <variable>
+      <defaultValue>'1000000'</defaultValue>
+      <description></description>
+      <id>98052f34-60dc-40a9-8142-085ccbd310a9</id>
+      <masked>false</masked>
+      <name>ParamAmount</name>
+   </variable>
+</TestCaseEntity>

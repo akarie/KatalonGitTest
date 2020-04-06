@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Skenario Normal untuk Testing Checklist</description>
+   <name>NF Testing Checklist - Remarks</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c22a1a5b-a6c0-443d-8dcd-5c411f010075</testCaseGuid>
+   <variable>
+      <defaultValue>'Testing Checklist with Katalon'</defaultValue>
+      <description></description>
+      <id>6e8263f6-762e-48bb-ae2f-854e5ca2a7ef</id>
+      <masked>false</masked>
+      <name>ParamRemarks</name>
+   </variable>
+</TestCaseEntity>

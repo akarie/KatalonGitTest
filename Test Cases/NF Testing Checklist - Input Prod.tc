@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Skenario Normal untuk Testing Checklist</description>
+   <name>NF Testing Checklist - Input Prod</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa645863-ef9e-48cd-a814-06e8232cf9f6</testCaseGuid>
+   <variable>
+      <defaultValue>'ADE'</defaultValue>
+      <description></description>
+      <id>8a97a48c-3763-47c5-be7b-1ceb577ff6c6</id>
+      <masked>false</masked>
+      <name>ParamProd</name>
+   </variable>
+</TestCaseEntity>

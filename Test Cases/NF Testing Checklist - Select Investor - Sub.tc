@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Skenario Normal untuk Testing Checklist</description>
+   <name>NF Testing Checklist - Select Investor - Sub</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8cd518a2-340d-4804-925d-1eeb1eafe8ef</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>29ba0aab-7222-4463-98e8-1cae55a73711</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+</TestCaseEntity>

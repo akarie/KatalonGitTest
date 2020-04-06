@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Skenario Normal untuk Testing Checklist</description>
+   <name>NF Testing Checklist - Select Inv Account (New)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3df13a9-3799-4e45-b036-d404a861ca04</testCaseGuid>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>84b63788-022d-46f1-99dc-286ffa316eba</id>
+      <masked>false</masked>
+      <name>ParamRefNo</name>
+   </variable>
+</TestCaseEntity>
