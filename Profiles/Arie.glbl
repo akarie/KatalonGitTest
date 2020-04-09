@@ -9,4 +9,9 @@
       <initValue>'https://rnd.praisindo.com/dev_cloud/ui/OrderManagement/AddNewTransaction'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>URL2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
