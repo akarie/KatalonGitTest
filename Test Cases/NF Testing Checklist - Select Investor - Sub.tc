@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>8cd518a2-340d-4804-925d-1eeb1eafe8ef</testCaseGuid>
    <variable>
-      <defaultValue>GlobalVariable.null</defaultValue>
+      <defaultValue>GlobalVariable.URL</defaultValue>
       <description></description>
       <id>29ba0aab-7222-4463-98e8-1cae55a73711</id>
       <masked>false</masked>

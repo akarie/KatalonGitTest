@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl('https://rnd.praisindo.com/dev_cloud/ui/OrderManagement/AddNewTransaction')
 
 WebUI.click(findTestObject('Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/div_Add New Transaction                    _2d84bc'))
 

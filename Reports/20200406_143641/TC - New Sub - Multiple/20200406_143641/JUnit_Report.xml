@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC - New Sub - Multiple" time="554.123" tests="87" failures="0" errors="0">
+   <testsuite name="TC - New Sub - Multiple" tests="87" failures="0" errors="0" time="554.123" timestamp="2020-04-06 14:36:45" hostname="ariekurniawan - localhost" id="Test Suites/TC - New Sub - Multiple">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ariekurniawan/git/KatalonGitTest/Reports/20200406_143641/TC - New Sub - Multiple/20200406_143641"/>
+         <property name="logFiles" value="/Users/ariekurniawan/git/KatalonGitTest/Reports/20200406_143641/TC - New Sub - Multiple/20200406_143641/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ariekurniawan - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Chrome 80.0.3987.149"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="4fefdd50534bd89ed91297f0cab7014e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/NF Testing Checklist - Select Investor - Sub" time="23.137" classname="Test Cases/NF Testing Checklist - Select Investor - Sub" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:36:46 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Select Investor - Sub: Test Cases/NF Testing Checklist - Select Investor - Sub
+
+2020-04-06 14:36:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-06 14:36:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-06 14:36:47 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2020-04-06 14:36:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-06 14:36:51 - [TEST_STEP][PASSED] - navigateToUrl("https://rnd.praisindo.com/dev_cloud/ui/OrderManagement/AddNewTransaction"): Navigate to 'https://rnd.praisindo.com/dev_cloud/ui/OrderManagement/AddNewTransaction' successfully
+
+2020-04-06 14:36:58 - [MESSAGE][PASSED] - Navigate to 'https://rnd.praisindo.com/dev_cloud/ui/OrderManagement/AddNewTransaction' successfully
+
+2020-04-06 14:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/div_Add New Transaction                    _2d84bc")): Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/div_Add New Transaction                    _2d84bc' is clicked on
+
+2020-04-06 14:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/div_Add New Transaction                    _2d84bc' is clicked on
+
+2020-04-06 14:37:00 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer"), "Fransiskus"): Text 'Fransiskus' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-04-06 14:37:03 - [MESSAGE][PASSED] - Text 'Fransiskus' is set on object 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-04-06 14:37:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-04-06 14:37:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/input_Customer_cusCustomer'
+
+2020-04-06 14:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/button_Subscription")): Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/button_Subscription' is clicked on
+
+2020-04-06 14:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Transaction - PraisindoSIARUI/button_Subscription' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="12.534" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:37:09 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:37:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text 'ASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSSFFSDFD' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:37:21 - [MESSAGE][PASSED] - Text 'ASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSSFFSDFD' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="7.384" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:37:21 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:37:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '~!@#$%^&*_ -+=’|\(){}[]:;”’<>,.?/; ?' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:37:29 - [MESSAGE][PASSED] - Text '~!@#$%^&*_ -+=’|\(){}[]:;”’<>,.?/; ?' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="3.336" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:37:29 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:37:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:37:32 - [MESSAGE][PASSED] - Text 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="3.582" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:37:32 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:37:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text 'abcdefhijklmnopqrstuvwxyz' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:37:36 - [MESSAGE][PASSED] - Text 'abcdefhijklmnopqrstuvwxyz' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="2.792" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:37:36 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:37:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '1234567890' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:37:39 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="2.381" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:37:39 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:37:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:37:41 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="2.589" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:37:41 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:37:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:37:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="2.708" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:37:44 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:37:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '           ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:37:46 - [MESSAGE][PASSED] - Text '           ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="4.044" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:37:46 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:37:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text 'ABC<div style=\"x\\x3Aexpression(javascript:alert(1)\">DEF' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:37:50 - [MESSAGE][PASSED] - Text 'ABC<div style=\"x\\x3Aexpression(javascript:alert(1)\">DEF' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="5.598" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:37:50 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:37:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '<script\\x20type=\"text/javascript\">javascript:alert(1);</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:37:56 - [MESSAGE][PASSED] - Text '<script\\x20type=\"text/javascript\">javascript:alert(1);</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="4.287" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:37:56 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:37:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '<a href=\"\\x1Ejavascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:38:00 - [MESSAGE][PASSED] - Text '<a href=\"\\x1Ejavascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="3.587" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:38:00 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '<img src=x\\x13onerror=\"javascript:alert(1)\">' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:38:04 - [MESSAGE][PASSED] - Text '<img src=x\\x13onerror=\"javascript:alert(1)\">' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="6.907" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:38:04 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:38:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]><foo>&xxe;</foo>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:38:11 - [MESSAGE][PASSED] - Text '<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]><foo>&xxe;</foo>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="7.474" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:38:11 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '\"`+"`"+`'><script>\\x0Djavascript:alert(1)</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:38:18 - [MESSAGE][PASSED] - Text '\"`+"`"+`'><script>\\x0Djavascript:alert(1)</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="3.24" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:38:18 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:38:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '<script>alert("123")</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:38:22 - [MESSAGE][PASSED] - Text '<script>alert("123")</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="3.849" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:38:22 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:38:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '<script>alert(document.cookie)</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:38:25 - [MESSAGE][PASSED] - Text '<script>alert(document.cookie)</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="3.123" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:38:26 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:38:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '<html><a>"Testing"</a></html>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:38:29 - [MESSAGE][PASSED] - Text '<html><a>"Testing"</a></html>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="3.996" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:38:29 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:38:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '<IMG SRC=\"jav&#x09;ascript:alert('XSS');\">' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:38:33 - [MESSAGE][PASSED] - Text '<IMG SRC=\"jav&#x09;ascript:alert('XSS');\">' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="2.834" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:38:33 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text 'http://a/%%30%30' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:38:35 - [MESSAGE][PASSED] - Text 'http://a/%%30%30' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="4.042" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:38:36 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:38:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '1'; DROP TABLE users-- 1' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:38:40 - [MESSAGE][PASSED] - Text '1'; DROP TABLE users-- 1' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="7.983" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:38:40 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:38:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '<iframe width="560" height="315" src="https://www.youtube.com/embed/WesrJBgEmyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:38:48 - [MESSAGE][PASSED] - Text '<iframe width="560" height="315" src="https://www.youtube.com/embed/WesrJBgEmyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="6.918" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:38:48 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:38:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text 'Kernel.exec(\"ls -al /\")' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:38:54 - [MESSAGE][PASSED] - Text 'Kernel.exec(\"ls -al /\")' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Ref No" time="3.939" classname="Test Cases/NF Testing Checklist - Ref No" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:38:54 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Ref No: Test Cases/NF Testing Checklist - Ref No
+
+2020-04-06 14:38:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo"), ParamRefNo): Text '() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo'
+
+2020-04-06 14:38:58 - [MESSAGE][PASSED] - Text '() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Reference No_RefNo']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Select Inv Account (New)" time="4.442" classname="Test Cases/NF Testing Checklist - Select Inv Account (New)" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:38:58 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Select Inv Account (New): Test Cases/NF Testing Checklist - Select Inv Account (New)
+
+2020-04-06 14:38:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/div_Investment Account                     _c7457b")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/div_Investment Account                     _c7457b' is clicked on
+
+2020-04-06 14:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/div_Investment Account                     _c7457b' is clicked on
+
+2020-04-06 14:39:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_New Account 11290000233729 584 REGUL_4f48bc"), "New Account", true): All options with value 'New Account' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_New Account 11290000233729 584 REGUL_4f48bc'  using regular expression
+
+2020-04-06 14:39:03 - [MESSAGE][PASSED] - All options with value 'New Account' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_New Account 11290000233729 584 REGUL_4f48bc'  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="10.209" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:39:03 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:39:03 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text 'ASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSSFFSDFD ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:08 - [MESSAGE][PASSED] - Text 'ASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSFDSFFSDFDASDFASDFASDFASDFASDFAASASFFDDFDSFDSSFFSDFD ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="8.294" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:39:13 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:39:13 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '~!@#$%^&*_ -+=’|\(){}[]:;”’<>,.?/; ? ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:18 - [MESSAGE][PASSED] - Text '~!@#$%^&*_ -+=’|\(){}[]:;”’<>,.?/; ? ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="7.176" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:39:21 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:39:21 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text 'the flying fox jumpz over the lazy dog' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:25 - [MESSAGE][PASSED] - Text 'the flying fox jumpz over the lazy dog' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="8.446" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:39:29 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:39:29 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text 'abcdefhijklmnopqrstuvwxyz ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:33 - [MESSAGE][PASSED] - Text 'abcdefhijklmnopqrstuvwxyz ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="9.086" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:39:37 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:39:37 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '1234567890' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:42 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="5.441" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:39:46 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:39:46 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="3.747" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:39:52 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:39:52 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="5.538" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:39:55 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:39:55 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '           ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:58 - [MESSAGE][PASSED] - Text '           ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:39:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="8.368" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:40:01 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:40:01 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text 'ABC<div style=\"x\\x3Aexpression(javascript:alert(1)\">DEF' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:06 - [MESSAGE][PASSED] - Text 'ABC<div style=\"x\\x3Aexpression(javascript:alert(1)\">DEF' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="9.273" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:40:09 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:40:09 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '<script\\x20type=\"text/javascript\">javascript:alert(1);</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:14 - [MESSAGE][PASSED] - Text '<script\\x20type=\"text/javascript\">javascript:alert(1);</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="9.856" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:40:19 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:40:19 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '<a href=\"\\x1Ejavascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:24 - [MESSAGE][PASSED] - Text '<a href=\"\\x1Ejavascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="8.636" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:40:29 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:40:29 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '<img src=x\\x13onerror=\"javascript:alert(1)\">' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:33 - [MESSAGE][PASSED] - Text '<img src=x\\x13onerror=\"javascript:alert(1)\">' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="10.067" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:40:37 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:40:37 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]><foo>&xxe;</foo>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:43 - [MESSAGE][PASSED] - Text '<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]><foo>&xxe;</foo>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="7.199" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:40:47 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:40:47 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '\"`+"`"+`'><script>\\x0Djavascript:alert(1)</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:52 - [MESSAGE][PASSED] - Text '\"`+"`"+`'><script>\\x0Djavascript:alert(1)</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="7.419" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:40:54 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:40:54 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '<script>alert("123")</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:59 - [MESSAGE][PASSED] - Text '<script>alert("123")</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:40:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="8.739" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:41:02 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:41:02 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '<script>alert(document.cookie)</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:07 - [MESSAGE][PASSED] - Text '<script>alert(document.cookie)</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="7.429" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:41:11 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:41:11 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '<html><a>"Testing"</a></html>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:15 - [MESSAGE][PASSED] - Text '<html><a>"Testing"</a></html>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="8.467" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:41:18 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:41:18 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '<IMG SRC=\"jav&#x09;ascript:alert('XSS');\">' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:23 - [MESSAGE][PASSED] - Text '<IMG SRC=\"jav&#x09;ascript:alert('XSS');\">' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="8.462" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:41:27 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:41:27 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text 'http://a/%%30%30' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:31 - [MESSAGE][PASSED] - Text 'http://a/%%30%30' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="7.795" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:41:35 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:41:35 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '1'; DROP TABLE users-- 1' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:39 - [MESSAGE][PASSED] - Text '1'; DROP TABLE users-- 1' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="8.577" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:41:43 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:41:43 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '<iframe width="560" height="315" src="https://www.youtube.com/embed/WesrJBgEmyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:48 - [MESSAGE][PASSED] - Text '<iframe width="560" height="315" src="https://www.youtube.com/embed/WesrJBgEmyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="8.64" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:41:51 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:41:51 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text 'Kernel.exec(\"ls -al /\")' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:56 - [MESSAGE][PASSED] - Text 'Kernel.exec(\"ls -al /\")' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:41:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="8.099" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:42:00 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:42:00 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:05 - [MESSAGE][PASSED] - Text '() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="6.072" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:42:08 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:42:08 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="3.65" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:42:14 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:42:14 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Prod" time="5.936" classname="Test Cases/NF Testing Checklist - Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:42:18 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Prod: Test Cases/NF Testing Checklist - Prod
+
+2020-04-06 14:42:18 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), ParamProd): Text '                ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:20 - [MESSAGE][PASSED] - Text '                ' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Input Prod" time="17.936" classname="Test Cases/NF Testing Checklist - Input Prod" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:42:24 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Input Prod: Test Cases/NF Testing Checklist - Input Prod
+
+2020-04-06 14:42:24 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), "ADE"): Text 'ADE' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:28 - [MESSAGE][PASSED] - Text 'ADE' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__product'
+
+2020-04-06 14:42:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/label_Gross")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/label_Gross' is clicked on
+
+2020-04-06 14:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/label_Gross' is clicked on
+
+2020-04-06 14:42:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/label_Nett")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/label_Nett' is clicked on
+
+2020-04-06 14:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/label_Nett' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Amount" time="4.317" classname="Test Cases/NF Testing Checklist - Amount" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:42:42 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Amount: Test Cases/NF Testing Checklist - Amount
+
+2020-04-06 14:42:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:42:44 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:42:44 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount"), ParamAmount): Text '-1' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount'
+
+2020-04-06 14:42:46 - [MESSAGE][PASSED] - Text '-1' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Amount" time="6.501" classname="Test Cases/NF Testing Checklist - Amount" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:42:46 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Amount: Test Cases/NF Testing Checklist - Amount
+
+2020-04-06 14:42:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:42:48 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount"), ParamAmount): Text '1000000' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount'
+
+2020-04-06 14:42:53 - [MESSAGE][PASSED] - Text '1000000' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Amount" time="5.993" classname="Test Cases/NF Testing Checklist - Amount" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:42:53 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Amount: Test Cases/NF Testing Checklist - Amount
+
+2020-04-06 14:42:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:42:54 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:42:54 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount"), ParamAmount): Text '1.8888' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount'
+
+2020-04-06 14:42:59 - [MESSAGE][PASSED] - Text '1.8888' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Amount" time="8.106" classname="Test Cases/NF Testing Checklist - Amount" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:42:59 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Amount: Test Cases/NF Testing Checklist - Amount
+
+2020-04-06 14:42:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:43:00 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount"), ParamAmount): Text 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefhijklmnopqrstuvwxyz' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount'
+
+2020-04-06 14:43:07 - [MESSAGE][PASSED] - Text 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefhijklmnopqrstuvwxyz' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Amount" time="8.116" classname="Test Cases/NF Testing Checklist - Amount" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:43:07 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Amount: Test Cases/NF Testing Checklist - Amount
+
+2020-04-06 14:43:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:43:08 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount"), ParamAmount): Text '1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount'
+
+2020-04-06 14:43:15 - [MESSAGE][PASSED] - Text '1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Amount" time="6.259" classname="Test Cases/NF Testing Checklist - Amount" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:43:15 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Amount: Test Cases/NF Testing Checklist - Amount
+
+2020-04-06 14:43:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:43:16 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount"), ParamAmount): Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount'
+
+2020-04-06 14:43:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Amount" time="3.875" classname="Test Cases/NF Testing Checklist - Amount" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:43:21 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Amount: Test Cases/NF Testing Checklist - Amount
+
+2020-04-06 14:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:43:23 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount"), ParamAmount): Text '0125678' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount'
+
+2020-04-06 14:43:25 - [MESSAGE][PASSED] - Text '0125678' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Amount" time="6.897" classname="Test Cases/NF Testing Checklist - Amount" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:43:25 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Amount: Test Cases/NF Testing Checklist - Amount
+
+2020-04-06 14:43:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:43:26 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount"), ParamAmount): Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount'
+
+2020-04-06 14:43:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Input Amount" time="17.331" classname="Test Cases/NF Testing Checklist - Input Amount" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:43:32 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Input Amount: Test Cases/NF Testing Checklist - Input Amount
+
+2020-04-06 14:43:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount' is clicked on
+
+2020-04-06 14:43:34 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount"), "10000000"): Text '10000000' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount'
+
+2020-04-06 14:43:36 - [MESSAGE][PASSED] - Text '10000000' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input__NetAmount'
+
+2020-04-06 14:43:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Fee SUB 1"), "3854", true): All options with value '3854' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Fee SUB 1'  using regular expression
+
+2020-04-06 14:43:43 - [MESSAGE][PASSED] - All options with value '3854' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Fee SUB 1'  using regular expression
+
+2020-04-06 14:43:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Fee ()_FeePercentage")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Fee ()_FeePercentage' is clicked on
+
+2020-04-06 14:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Fee ()_FeePercentage' is clicked on
+
+2020-04-06 14:43:45 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Fee ()_FeePercentage"), "4"): Text '4' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Fee ()_FeePercentage'
+
+2020-04-06 14:43:49 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Fee ()_FeePercentage']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Additional Charges" time="6.206" classname="Test Cases/NF Testing Checklist - Additional Charges" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:43:49 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Additional Charges: Test Cases/NF Testing Checklist - Additional Charges
+
+2020-04-06 14:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:43:53 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges"), ParamAdditionalCharges): Text '-1' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges'
+
+2020-04-06 14:43:56 - [MESSAGE][PASSED] - Text '-1' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Additional Charges" time="5.952" classname="Test Cases/NF Testing Checklist - Additional Charges" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:43:56 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Additional Charges: Test Cases/NF Testing Checklist - Additional Charges
+
+2020-04-06 14:43:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:43:57 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges"), ParamAdditionalCharges): Text '1000000' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges'
+
+2020-04-06 14:44:02 - [MESSAGE][PASSED] - Text '1000000' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Additional Charges" time="5.127" classname="Test Cases/NF Testing Checklist - Additional Charges" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:44:02 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Additional Charges: Test Cases/NF Testing Checklist - Additional Charges
+
+2020-04-06 14:44:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:03 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges"), ParamAdditionalCharges): Text '1.8888' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges'
+
+2020-04-06 14:44:07 - [MESSAGE][PASSED] - Text '1.8888' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Additional Charges" time="5.441" classname="Test Cases/NF Testing Checklist - Additional Charges" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:44:07 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Additional Charges: Test Cases/NF Testing Checklist - Additional Charges
+
+2020-04-06 14:44:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:08 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges"), ParamAdditionalCharges): Text 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefhijklmnopqrstuvwxyz' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges'
+
+2020-04-06 14:44:12 - [MESSAGE][PASSED] - Text 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefhijklmnopqrstuvwxyz' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Additional Charges" time="6.353" classname="Test Cases/NF Testing Checklist - Additional Charges" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:44:12 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Additional Charges: Test Cases/NF Testing Checklist - Additional Charges
+
+2020-04-06 14:44:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:13 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges"), ParamAdditionalCharges): Text '1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges'
+
+2020-04-06 14:44:19 - [MESSAGE][PASSED] - Text '1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Additional Charges" time="5.26" classname="Test Cases/NF Testing Checklist - Additional Charges" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:44:19 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Additional Charges: Test Cases/NF Testing Checklist - Additional Charges
+
+2020-04-06 14:44:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:20 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges"), ParamAdditionalCharges): Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges'
+
+2020-04-06 14:44:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Additional Charges" time="3.811" classname="Test Cases/NF Testing Checklist - Additional Charges" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:44:24 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Additional Charges: Test Cases/NF Testing Checklist - Additional Charges
+
+2020-04-06 14:44:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:25 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges"), ParamAdditionalCharges): Text '0125678' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges'
+
+2020-04-06 14:44:28 - [MESSAGE][PASSED] - Text '0125678' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Additional Charges" time="5.861" classname="Test Cases/NF Testing Checklist - Additional Charges" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:44:28 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Additional Charges: Test Cases/NF Testing Checklist - Additional Charges
+
+2020-04-06 14:44:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:29 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:29 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges"), ParamAdditionalCharges): Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges'
+
+2020-04-06 14:44:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Input Additional Charges" time="4.106" classname="Test Cases/NF Testing Checklist - Input Additional Charges" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:44:33 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Input Additional Charges: Test Cases/NF Testing Checklist - Input Additional Charges
+
+2020-04-06 14:44:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:35 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges' is clicked on
+
+2020-04-06 14:44:35 - [TEST_STEP][PASSED] - setText(findTestObject("New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges"), "250000"): Text '250000' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges'
+
+2020-04-06 14:44:38 - [MESSAGE][PASSED] - Text '250000' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/input_Additional Charges_Charges']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Select PM, Cust BA, Prod BA" time="30.589" classname="Test Cases/NF Testing Checklist - Select PM, Cust BA, Prod BA" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:44:38 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Select PM, Cust BA, Prod BA: Test Cases/NF Testing Checklist - Select PM, Cust BA, Prod BA
+
+2020-04-06 14:44:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88"), "TRS", true): All options with value 'TRS' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:42 - [MESSAGE][PASSED] - All options with value 'TRS' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88"), "RTG", true): All options with value 'RTG' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:44 - [MESSAGE][PASSED] - All options with value 'RTG' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88"), "N/A", true): All options with value 'N/A' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:46 - [MESSAGE][PASSED] - All options with value 'N/A' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88"), "CAS", true): All options with value 'CAS' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:48 - [MESSAGE][PASSED] - All options with value 'CAS' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88"), "DIV", true): All options with value 'DIV' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:51 - [MESSAGE][PASSED] - All options with value 'DIV' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88"), "CLR", true): All options with value 'CLR' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:53 - [MESSAGE][PASSED] - All options with value 'CLR' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88"), "TRS", true): All options with value 'TRS' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:55 - [MESSAGE][PASSED] - All options with value 'TRS' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_Select Method                       _3f9a88'  using regular expression
+
+2020-04-06 14:44:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d"), "90902121", true): All options with value '90902121' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d'  using regular expression
+
+2020-04-06 14:44:57 - [MESSAGE][PASSED] - All options with value '90902121' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d'  using regular expression
+
+2020-04-06 14:44:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d"), "1201314", true): All options with value '1201314' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d'  using regular expression
+
+2020-04-06 14:44:59 - [MESSAGE][PASSED] - All options with value '1201314' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d'  using regular expression
+
+2020-04-06 14:44:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d"), "3371658978", true): All options with value '3371658978' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d'  using regular expression
+
+2020-04-06 14:45:02 - [MESSAGE][PASSED] - All options with value '3371658978' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d'  using regular expression
+
+2020-04-06 14:45:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d"), "7667381", true): All options with value '7667381' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d'  using regular expression
+
+2020-04-06 14:45:04 - [MESSAGE][PASSED] - All options with value '7667381' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d'  using regular expression
+
+2020-04-06 14:45:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d"), "8748758475841", true): All options with value '8748758475841' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d'  using regular expression
+
+2020-04-06 14:45:06 - [MESSAGE][PASSED] - All options with value '8748758475841' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ANDARU - BANK CENTRAL ASIA Kantor Pu_394f5d'  using regular expression
+
+2020-04-06 14:45:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ADEN - Standard Chartered Bank Stand_f7fd79"), "1438", true): All options with value '1438' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ADEN - Standard Chartered Bank Stand_f7fd79'  using regular expression
+
+2020-04-06 14:45:08 - [MESSAGE][PASSED] - All options with value '1438' are selected in object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/select_ADEN - Standard Chartered Bank Stand_f7fd79'  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="3.039" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:08 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text 'ABC<div style=\"x\\x3Aexpression(javascript:alert(1)\">DEF' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:11 - [MESSAGE][PASSED] - Text 'ABC<div style=\"x\\x3Aexpression(javascript:alert(1)\">DEF' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="2.801" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:11 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text '<script\\x20type=\"text/javascript\">javascript:alert(1);</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:14 - [MESSAGE][PASSED] - Text '<script\\x20type=\"text/javascript\">javascript:alert(1);</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="3.042" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:14 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text '<a href=\"\\x1Ejavascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:17 - [MESSAGE][PASSED] - Text '<a href=\"\\x1Ejavascript:javascript:alert(1)\" id=\"fuzzelement1\">test</a>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="2.848" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:17 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text '<img src=x\\x13onerror=\"javascript:alert(1)\">' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:20 - [MESSAGE][PASSED] - Text '<img src=x\\x13onerror=\"javascript:alert(1)\">' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="3.759" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:20 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text '<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]><foo>&xxe;</foo>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:24 - [MESSAGE][PASSED] - Text '<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><!DOCTYPE foo [ <!ELEMENT foo ANY ><!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]><foo>&xxe;</foo>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="2.72" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:24 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text '\"`+"`"+`'><script>\\x0Djavascript:alert(1)</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:26 - [MESSAGE][PASSED] - Text '\"`+"`"+`'><script>\\x0Djavascript:alert(1)</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="2.812" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:26 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text '<script>alert("123")</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:29 - [MESSAGE][PASSED] - Text '<script>alert("123")</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="2.749" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:29 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text '<script>alert(document.cookie)</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:32 - [MESSAGE][PASSED] - Text '<script>alert(document.cookie)</script>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="2.648" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:32 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text '<html><a>"Testing"</a></html>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:35 - [MESSAGE][PASSED] - Text '<html><a>"Testing"</a></html>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="2.777" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:35 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text '<IMG SRC=\"jav&#x09;ascript:alert('XSS');\">' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:38 - [MESSAGE][PASSED] - Text '<IMG SRC=\"jav&#x09;ascript:alert('XSS');\">' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="2.557" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:38 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text 'http://a/%%30%30' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:40 - [MESSAGE][PASSED] - Text 'http://a/%%30%30' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="2.626" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:40 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text '1'; DROP TABLE users-- 1' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:43 - [MESSAGE][PASSED] - Text '1'; DROP TABLE users-- 1' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="3.774" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:43 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text '<iframe width="560" height="315" src="https://www.youtube.com/embed/WesrJBgEmyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:46 - [MESSAGE][PASSED] - Text '<iframe width="560" height="315" src="https://www.youtube.com/embed/WesrJBgEmyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="2.499" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:47 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text 'Kernel.exec(\"ls -al /\")' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:49 - [MESSAGE][PASSED] - Text 'Kernel.exec(\"ls -al /\")' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Remarks" time="3.017" classname="Test Cases/NF Testing Checklist - Remarks" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:49 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Remarks: Test Cases/NF Testing Checklist - Remarks
+
+2020-04-06 14:45:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), ParamRemarks): Text '() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:52 - [MESSAGE][PASSED] - Text '() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NF Testing Checklist - Input Remarks - Submit" time="6.902" classname="Test Cases/NF Testing Checklist - Input Remarks - Submit" status="PASSED">
+         <system-out><![CDATA[2020-04-06 14:45:52 - [TEST_CASE][PASSED] - Test Cases/NF Testing Checklist - Input Remarks - Submit: Test Cases/NF Testing Checklist - Input Remarks - Submit
+
+2020-04-06 14:45:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks"), "Testing Checklist dengan Katalon"): Text 'Testing Checklist dengan Katalon' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:55 - [MESSAGE][PASSED] - Text 'Testing Checklist dengan Katalon' is set on object 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/textarea_Remark_Remarks'
+
+2020-04-06 14:45:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/button_Save to Draft")): Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/button_Save to Draft' is clicked on
+
+2020-04-06 14:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/New Subscription/Page_Add New Subscription - PraisindoSIARUI/button_Save to Draft' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-06 14:36:45 - [TEST_SUITE][PASSED] - TC - New Sub - Multiple: Test Cases/NF Testing Checklist - Input Remarks - Submit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
